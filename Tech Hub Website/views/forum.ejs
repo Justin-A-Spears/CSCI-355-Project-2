@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/forum_styles.css">
+    <title>Tech Hub | Forum</title>
+    <link rel="icon" type="image/png" href="/PC_Title (2).png">
+</head>
+<body class="main">
+    <nav class="nav navbg">
+        <div class="container">
+            <h1><a class="logo" href="/index"><img src="/Tech_hub_logo.png" alt="PC Hub Logo"></a></h1>
+            <input class="search" type="search" placeholder="Search">
+            <ul class="nav-text nav-items">
+                <li><a href="/index"><img src="/The_hub_icon.png">The Hub</a></li>
+                <li><a href="/techspot"><img src="/Tech_spot_icon.png">Tech Spot</a></li>
+                <li><a href="/forum" class="active"><img src="/Forum_icon.png">Forum</a></li>
+                <li><a href="/help"><img src="/help_icon.png">FAQs</a></li>
+                <li><a href="/login"><img src="/Login_icon.png">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="tech-hub-forum">
+        <div class="forum-container">
+            <div class="forum-topic">
+                <header class="img-title"> 
+                    <h2><img src="/form_bg.png" alt="forum img"></h2>
+                    <h3 class="forum-title">Latest Discussions</h3>
+                </header>
+                <ul class="topic-list">
+                    <li><a href="#">How to build a gaming PC?</a><span class="date">2 March 2024</span></li>
+                    <li><a href="#">Best programming languages for beginners?</a><span class="date">17 April 2024</span></li>
+                    <li><a href="#">Discussing the latest tech trends</a><span class="date">3 May 2024</span></li>
+                </ul>
+            </div>
+            <div class="forum-post-container">
+                <div class="forum-post">
+                    <h3 class="post-title">Post a New Topic</h3>
+                    <form class ="form-box" action="/submit_post" method="post">
+                        <div class="input-box">
+                            <input type="text" name="topic_title" placeholder="Topic Title" required>
+                        </div><br>
+                        <textarea name="post_content" placeholder="Your message..." rows="5" required></textarea><br>
+                        <div class="btn-container">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

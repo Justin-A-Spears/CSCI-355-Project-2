@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", inital-scale="1.0">
+        <link rel="stylesheet" href="/login_styles.css">
+        <title>Tech Hub | Login</title>
+        <link rel="icon" type="image/png" href="/PC_Title (2).png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="main">
+        <nav class="nav navbg">
+            <div class="container">
+                <h1><a class="logo" href="/index"><img src="/Tech_hub_logo.png" alt="PC Hub Logo"></a></h1>
+                <input class="search" type="search" placeholder="Search">
+                <ul class="nav-text nav-items">
+                    <li><a href="/index"><img src="/The_hub_icon.png">The Hub</a></li>
+                    <li><a href="/techspot"><img src="/Tech_spot_icon.png">Tech Spot</a></li>
+                    <li><a href="/forum"><img src="/Forum_icon.png">Forum</a></li>
+                    <li><a href="/help"><img src="/help_icon.png">Faqs</a></li>
+                    <li><a href="/login" class="active"><img src="/Login_icon.png">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="login">
+            <div class="login-container">
+                <form action="/login" method="POST">
+                    <h1>Login | Sign-Up</h1>
+                    <div class="input-container">
+                        <input name="username" type="text" placeholder="Username" required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-container">
+                        <input type="password" name="password" placeholder="Password" required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#"> Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="register-link">
+                        <p>Don't have an account?<a href="/registration"> Sign-up</a></p>
+                    </div>
+                </form>
+            </div>
+        <div>
+    </body>
+</html>
